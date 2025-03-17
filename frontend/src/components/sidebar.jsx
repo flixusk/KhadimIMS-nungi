@@ -41,7 +41,7 @@ const Sidebar = () => {
             <div className={`overflow-hidden transition-all duration-500 ease-in-out ${isMyShopOpen ? 'max-h-40 opacity-100' : 'max-h-0 opacity-0'}`}>
               <ul className="pl-4 mt-2 space-y-2">
                 <li>
-                  <a href="#" className="flex items-center p-2 hover:bg-zinc-700 rounded">
+                  <a href="product" className="flex items-center p-2 hover:bg-zinc-700 rounded">
                     <span>Products</span>
                   </a>
                 </li>
