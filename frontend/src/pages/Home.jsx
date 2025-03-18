@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className='flex'>
         <Sidebar/>
-        <div className='flex-1 p-1'>
+        <div className='flex-1 p-1 pl-64'>
         <div className='text-center'>
             THIS IS the homepage
         </div>
