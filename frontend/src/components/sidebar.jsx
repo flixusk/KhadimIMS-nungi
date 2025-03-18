@@ -5,7 +5,7 @@ const Sidebar = () => {
   const [isMyShopOpen, setIsMyShopOpen] = useState(false);
 
   return (
-    <div className="flex flex-col w-64 bg-zinc-900 text-white h-screen p-4">
+    <div className="fixed top-0 left-0 w-64 bg-zinc-900 text-white h-screen p-4">
       <div className="text-2xl font-bold mb-8">
         LOGO and Store
       </div>
